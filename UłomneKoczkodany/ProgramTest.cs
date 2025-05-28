@@ -9,10 +9,10 @@ using static UłomneKoczkodany.Program;
 
 namespace UłomneKoczkodany
 {
-    internal class BankTesting
+    public class BankTesting
     {
     [TestClass]
-        public class BankTest
+        public class BankTest()
         {
             [TestMethod]
             public void WplataRetrurnCorrectResult()

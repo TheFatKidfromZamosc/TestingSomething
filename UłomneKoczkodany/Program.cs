@@ -1,6 +1,6 @@
 ﻿namespace UłomneKoczkodany
 {
-    internal class Program
+    public class Program
     {
         public class Bank
 
@@ -34,13 +34,6 @@
                 return false;
             }
         }
-        static void Main(string[] args)
-        {
-            var cos = new Bank(1000);
-            cos.wplata(100000);
-            Console.WriteLine(cos.getStanKonta());
-            cos.wyplata(1000);
-            Console.WriteLine(cos.getStanKonta());
-        }
+   
     }
 }
